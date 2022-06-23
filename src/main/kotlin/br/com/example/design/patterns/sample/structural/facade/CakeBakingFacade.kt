@@ -1,5 +1,10 @@
 package br.com.example.design.patterns.sample.structural.facade
 
+/**
+ * Facade is a structural design pattern that provides a simplified interface to a library,
+ * framework, or any complex set of classes.
+ */
+
 class CakeBakingFacade(
     private val ingredients: Ingredients,
     private val cook: Cook,
